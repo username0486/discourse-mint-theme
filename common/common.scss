@@ -23,6 +23,10 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
    background: var(--header_background) !important;
 }
 
+.sidebar-wrapper .sidebar-sections {
+   background: var(--header_background) !important;
+}
+
 .d-editor-textarea-wrapper,
 .select-kit-header {
   border-radius: var(--mint-border-radius);
