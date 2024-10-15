@@ -4,11 +4,23 @@
 
 //custom add css code
 .b-header .nav-pills>li>a {
-  colour: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 .btn-primary .d-icon {
-  colour: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.custom-homepage-columns .col {
+    background: var(--header_background) !important;
+}
+
+.navigation-topics .container.list-container {
+    background: var(--header_background) !important;
+}
+
+body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+   background: var(--header_background) !important;
 }
 
 .d-editor-textarea-wrapper,
