@@ -46,7 +46,7 @@
       }
     }
     .btn-more {
-      color: var(--secondary);
+      color: var(--primary);
       background: var(--tertiary);
       transition: all 0.3s linear;
       border-radius: var(--mint-border-radius);
@@ -163,12 +163,12 @@ a {
   }
   &:hover {
     background: var(--tertiary);
-    color: var(--secondary);
+    color: var(--primary);
     box-shadow: var(--mint-hover-shadow);
     transition: all 0.3s linear;
     border-radius: var(--mint-border-radius);
     .fa {
-      color: var(--secondary);
+      color: var(--primary);
     }
   }
 }
@@ -262,11 +262,11 @@ a {
 
 .discourse-no-touch .btn:not(.btn-flat):hover,
 .discourse-no-touch .btn:not(.btn-flat).btn-hover {
-  color: var(--secondary);
+  color: var(--primary);
   background: var(--tertiary-hover);
   border-radius: 5px;
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
