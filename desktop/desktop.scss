@@ -16,7 +16,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   }
 }
 
-#main-outlet:after {
+/*#main-outlet:after {
   content: "";
   display: block;
   position: fixed;
@@ -43,4 +43,4 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   top: 350px;
   transform: rotate(74deg);
   transform-origin: 0 100%;
-}
+}*/
