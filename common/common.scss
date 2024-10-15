@@ -219,9 +219,9 @@ a {
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
-    background: var(--tertiary-low);
+    background: var(--tertiary-medium);
     color: var(--primary);
-    border: 1px solid var(--tertiary-low);
+    border: 1px solid var(--tertiary-medium);
   }
 }
 
@@ -391,4 +391,8 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   .custom-homepage-columns {
     display: flex;
   }
+}
+
+.b-header .nav-pills li a {
+  colour: var(--primary) !important;
 }
