@@ -208,6 +208,7 @@ a {
 .nav-pills li a {
   border: 1px solid transparent;
   border-radius: var(--mint-border-radius);
+  color: var(--primary);
   &:hover {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
@@ -218,9 +219,9 @@ a {
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
-    background: var(--tertiary);
+    background: var(--tertiary-low);
     color: var(--primary);
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--tertiary-low);
   }
 }
 
@@ -291,6 +292,7 @@ a {
 
 .btn-primary {
   border-radius: var(--mint-border-radius);
+  color: var(--primary);
 }
 
 .discourse-no-touch .btn-danger:hover {
@@ -309,6 +311,7 @@ a {
 .edit-category-footer {
   .btn-primary {
     border-radius: var(--mint-border-radius);
+    color: var(--primary);
   }
 }
 
@@ -331,7 +334,7 @@ a:hover {
 .email-template,
 .admin-container {
   .nav-pills > li a.active {
-    background: var(--tertiary);
+    background: var(--tertiary-low);
     color: var(--primary);
   }
   .btn-primary {
