@@ -18,7 +18,7 @@
 }
 
 .d-header-mode .bootstrap-mode {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .alert.alert-info {
@@ -53,7 +53,7 @@
       text-transform: uppercase;
       border: 1px solid var(--tertiary);
       &:hover {
-        color: var(--secondary);
+        color: var(--primary);
         background: var(--tertiary-hover);
       }
     }
@@ -218,9 +218,9 @@ a {
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
-    background: var(--mint-color-mint);
-    color: var(--secondary);
-    border: 1px solid var(--mint-color-mint);
+    background: var(--tertiary);
+    color: var(--[primary);
+    border: 1px solid var(--tertiary);
   }
 }
 
@@ -323,7 +323,7 @@ a:hover {
 .image-upload-controls .btn-default {
   border: 1px solid var(--secondary);
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -350,7 +350,7 @@ a:hover {
 
 .custom-search-banner-wrap h1,
 .custom-search-banner-wrap p {
-  color: var(--primary-very-low);
+  color: var(--primary);
 }
 
 .btn[href] {
