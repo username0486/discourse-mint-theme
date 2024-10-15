@@ -2,6 +2,15 @@
 @import "sidebar";
 @import "chat";
 
+//custom add css code
+.b-header .nav-pills>li>a {
+  colour: var(--primary) !important;
+}
+
+.btn-primary .d-icon {
+  colour: var(--primary) !important;
+}
+
 .d-editor-textarea-wrapper,
 .select-kit-header {
   border-radius: var(--mint-border-radius);
@@ -391,8 +400,4 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   .custom-homepage-columns {
     display: flex;
   }
-}
-
-.b-header .nav-pills li a {
-  colour: var(--primary) !important;
 }
